@@ -1,0 +1,4 @@
+# Rend les deux pages en HTML lisible plutôt qu'en texte brut.
+theme: jekyll-theme-minimal
+title: Gravel
+description: Conditions générales et politique de confidentialité
