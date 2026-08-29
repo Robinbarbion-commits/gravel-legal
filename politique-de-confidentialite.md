@@ -14,9 +14,41 @@ Pour toute question ou pour exercer tes droits :
 Gravel enregistre ta position pendant tes sorties à vélo, pour tracer ton
 parcours et colorer les carrés que tu as parcourus.
 
-Ton tracé GPS n'est visible que par toi. Aucun autre utilisateur ne peut voir
-par où tu es passé, ni où sont tes carrés. Tes données ne sont ni vendues, ni
-louées, ni transmises à des fins publicitaires.
+Ton tracé GPS n'est visible que par toi, sauf si tu choisis toi-même
+d'envoyer un parcours à quelqu'un par la messagerie. Aucun autre utilisateur
+ne peut voir par où tu es passé, ni où sont tes carrés, tant que tu ne l'as
+pas décidé. Tes données ne sont ni vendues, ni louées, ni transmises à des
+fins publicitaires.
+
+## La messagerie et le partage de parcours
+
+Gravel te permet d'écrire à d'autres utilisateurs et de leur envoyer un de
+tes parcours.
+
+**Ce que contient un message.** Le texte que tu écris, et — si tu partages un
+parcours — une copie du tracé GPS de cette sortie. Cette copie est stockée
+dans le message lui-même, pas dans tes sorties : la personne n'obtient jamais
+accès à ton historique, seulement au parcours que tu lui as envoyé.
+
+**Ce que ça révèle.** Une sortie à vélo part le plus souvent de chez toi et y
+revient. Un tracé partagé montre donc où tu habites. L'application te le
+rappelle avant ton premier partage et te propose de masquer le départ et
+l'arrivée. Tu peux activer ou désactiver cette option quand tu veux.
+
+**Qui peut le voir.** Uniquement la personne à qui tu l'as envoyé. Les
+conversations et les messages ne sont lisibles que par leurs deux
+participants, y compris pour nous : la règle est appliquée par la base de
+données, pas par l'application.
+
+**Comment revenir en arrière.** Supprime ton message dans la conversation
+(appui long) : la copie du tracé disparaît avec lui. Supprimer ton compte
+efface également tous les messages que tu as envoyés.
+
+**Bloquer et signaler.** Tu peux bloquer une personne — vous ne pourrez plus
+vous écrire, ni l'un ni l'autre — et signaler un message ou un compte. Les
+signalements sont examinés sous 24 heures ; un contenu peut être retiré et un
+compte suspendu. Ils contiennent le message concerné, l'identifiant de la
+personne visée et le tien.
 
 ## Les données que Gravel collecte
 
