@@ -89,7 +89,33 @@ carrés, série).
 
 Cette autorisation prend fin quand tu supprimes ton compte.
 
-## 8. Propriété
+## 8. Messagerie et règles de conduite
+
+Gravel te permet d'écrire à d'autres utilisateurs et de leur envoyer un de
+tes parcours. En utilisant la messagerie, tu acceptes ces règles.
+
+**Ce qui est interdit.** Le harcèlement, les menaces, les insultes, les
+propos haineux ou discriminatoires. Les contenus sexuels, violents ou
+choquants. Le spam, la publicité et les arnaques. L'usurpation de l'identité
+d'un tiers. La diffusion des données personnelles de quelqu'un d'autre, y
+compris un parcours qu'on t'a envoyé.
+
+**Ce que tu peux faire.** Bloquer une personne : vous ne pourrez plus vous
+écrire, ni l'un ni l'autre. Signaler un message ou un compte, depuis la
+conversation ou par courriel à robinbarbion@icloud.com.
+
+**Ce que nous faisons.** Tout signalement est examiné dans les 24 heures. Un
+contenu contraire à ces règles est retiré et le compte responsable peut être
+suspendu ou supprimé, sans préavis en cas de manquement grave.
+
+**Un parcours qu'on te partage ne t'appartient pas.** Il t'est montré dans la
+conversation. Tu n'as pas le droit de le rediffuser, de le republier ni de
+t'en servir pour localiser quelqu'un.
+
+**Ce que tu envoies engage ta responsabilité.** Un parcours partagé révèle
+généralement l'endroit d'où tu pars. Tu choisis à qui tu l'envoies.
+
+## 9. Propriété
 
 Le nom Gravel, l'application, son interface, ses illustrations et ses badges
 sont protégés. Tu n'as pas le droit de les copier, de les modifier ou de les
@@ -98,7 +124,7 @@ redistribuer.
 Les fonds de carte proviennent de MapTiler et CARTO, à partir des données
 d'OpenStreetMap, sous leurs licences respectives.
 
-## 9. Responsabilité
+## 10. Responsabilité
 
 Dans la limite permise par la loi, la responsabilité de l'éditeur ne peut être
 engagée pour les dommages résultant de l'utilisation de l'application,
@@ -109,13 +135,13 @@ Rien dans ces conditions ne limite la responsabilité en cas de faute
 intentionnelle ou de négligence grave, ni ne prive un consommateur des droits
 que la loi lui garantit.
 
-## 10. Données personnelles
+## 11. Données personnelles
 
 Le traitement de tes données est décrit dans la
 [politique de confidentialité](https://robinbarbion-commits.github.io/gravel-legal/politique-de-confidentialite), qui
 fait partie intégrante des présentes conditions.
 
-## 11. Modification et fin
+## 12. Modification et fin
 
 Ces conditions peuvent être modifiées. En cas de changement important, tu en
 seras informé dans l'application. Si tu n'acceptes pas les nouvelles
@@ -124,7 +150,7 @@ conditions, tu peux supprimer ton compte.
 L'éditeur peut suspendre ou arrêter le service, en informant les utilisateurs
 dans un délai raisonnable lorsque c'est possible.
 
-## 12. Droit applicable
+## 13. Droit applicable
 
 Ces conditions sont soumises au droit français. En cas de litige, une solution
 amiable sera recherchée en priorité. À défaut, les tribunaux français sont
