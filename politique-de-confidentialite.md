@@ -1,6 +1,6 @@
 # Politique de confidentialité — Gravel
 
-**Dernière mise à jour : 26 août 2026**
+**Dernière mise à jour : 18 septembre 2026**
 
 ## Qui est responsable de tes données
 
@@ -63,7 +63,16 @@ Stop. En dehors d'une sortie, Gravel ne relève pas ta position.
 date de naissance et le nombre de jours par semaine où tu comptes rouler.
 
 **Ce que tu ajoutes ensuite, si tu le souhaites.** Ta photo de profil, ton
-poids et ton poids cible, tes objectifs mensuels.
+poids, tes objectifs mensuels.
+
+**Ce que ta montre envoie, si tu en connectes une.** Gravel peut recevoir les
+sorties enregistrées par une montre Garmin. Dans ce cas, chaque sortie peut
+porter, en plus du tracé : ta fréquence cardiaque moyenne et maximale, tes
+zones cardiaques, ta fréquence cardiaque au repos, ta cadence et ta puissance
+(moyennes et maximales), les calories mesurées par la montre, ton VO2 max
+estimé, l'effet d'entraînement de la sortie et le temps de récupération
+conseillé. Rien de tout cela n'arrive tant que tu n'as pas toi-même appairé
+une montre, et débrancher la montre arrête l'envoi immédiatement.
 
 **Ce que Gravel calcule à partir de tes sorties.** Distance, durée, dénivelé,
 vitesse moyenne, carrés parcourus, XP, gemmes, badges et séries.
@@ -80,12 +89,20 @@ envoyer le rappel de série à la bonne heure.
 | Prénom | Te saluer dans l'app | Exécution du service |
 | Date de naissance | Vérifier l'âge minimum de 15 ans | Obligation légale |
 | Jours d'entraînement, objectifs | Calculer tes objectifs mensuels | Exécution du service |
-| Poids et poids cible | Suivi personnel et estimation des calories | Ton consentement explicite |
+| Poids | Estimer les calories brûlées pendant tes sorties | Ton consentement explicite |
+| Données de ta montre (fréquence cardiaque, zones, cadence, puissance, calories, VO2 max, effet d'entraînement, récupération) | Te les montrer dans l'onglet Santé | Ton consentement explicite, donné en appairant la montre |
 | Fuseau horaire | Envoyer le rappel à l'heure locale | Ton consentement (notifications) |
 
-Le poids et les calories sont des données relatives à la santé. Ils ne sont
-jamais collectés d'office : ils n'existent que si tu les renseignes toi-même,
-et tu peux les effacer à tout moment.
+Le poids, les calories et tout ce que remonte la montre sont des données
+relatives à la santé. Ils ne sont jamais collectés d'office : le poids
+n'existe que si tu le saisis toi-même, les mesures de la montre que si tu as
+appairé la tienne. Tu peux retirer ton consentement à tout moment depuis
+l'onglet Santé — les données de santé déjà enregistrées sont alors effacées,
+pas seulement masquées.
+
+Ces données ne servent qu'à te les afficher à toi. Elles ne sont ni partagées,
+ni vendues, ni utilisées pour du profilage ou de la publicité, et elles
+n'entrent dans aucun classement.
 
 ## Qui peut voir quoi
 
@@ -94,7 +111,8 @@ ta division, et tes totaux au classement — distance cumulée, nombre de
 sorties, nombre de carrés, série de flammes.
 
 **Personne d'autre que toi ne voit :** ton tracé GPS, l'emplacement de tes
-carrés, ton prénom, ta date de naissance, ton poids et ton poids cible.
+carrés, ton prénom, ta date de naissance, ton poids, et toutes les mesures
+remontées par ta montre.
 
 Ce n'est pas une promesse déclarative : la base de données elle-même refuse ces
 lectures. Chaque table est restreinte à son propriétaire, et le classement lit
@@ -109,6 +127,11 @@ trouve.
 
 **Supabase** héberge la base de données et gère l'authentification.
 Sous-traitant au sens du RGPD.
+
+**Garmin**, uniquement si tu appaires une montre. L'application installée sur
+la montre envoie tes sorties à Gravel. Gravel ne se connecte pas à ton compte
+Garmin et ne va rien y chercher : c'est la montre qui envoie, et rien ne
+circule tant que tu ne l'as pas appairée.
 
 **MapTiler** (ou **CARTO** si aucune clé MapTiler n'est configurée) fournit les
 fonds de carte. Quand tu déplaces la carte, ton téléphone leur demande les
@@ -135,7 +158,8 @@ Tes données ne sont transférées vers aucun pays hors de l'Union.
 
 Tes données sont conservées tant que ton compte existe. Quand tu supprimes ton
 compte, elles sont effacées immédiatement et définitivement : profil, sorties,
-tracés GPS, territoire, poids, objectifs et amitiés. Il n'existe aucune copie
+tracés GPS, territoire, poids, mesures de ta montre, objectifs et amitiés. Il
+n'existe aucune copie
 de sauvegarde permettant de les restaurer.
 
 ## Tes droits
